@@ -1,0 +1,77 @@
+ 
+/* --- ПАРАВАЯ ЧАСТЬ ТЕЛА САЙТА --- */
+/* --- Уменьшение растояния между привью вывода и активными фильтрами --- */
+
+.switch-layout-container {
+    background: #f5f5f5;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 31px;
+    min-height: 54px;
+}
+  
+.lessonfilter {
+    margin-top: 2px;
+}
+.lessonfilter > form label {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    /* font-weight: normal; */
+    font-size: 12.8px;
+    line-height: 34px; 
+    color: #999;
+}
+.lessonfilter > form {
+/*   margin-bottom: 10px;*/
+}
+.lessonfilter > form button {
+    display: none;
+}
+.lessonfilter > form input[type=radio] { 
+    margin-right: 2px;
+}
+
+/*** счетчик просмотров ***/
+.comments22 {
+    color: #cccccc;
+    font-size: 13px;
+    position: relative;
+    top: -1px;
+}
+.comments22 .views-placeholder {
+    font-size: 13px;
+    color: #ccc;
+    margin-left: 2px;
+}
+
+ 
+.blog-content.blog-switch-layout.blog-grid.grid-4 {  
+    /* явная высота враппера чтобы не прыгал контент */
+ /*     height: 780px;
+     overflow: hidden;
+*/
+}
+
+.blog-switch-layout.blog-grid article.blog-grid-4:nth-child(5n+1) {
+    clear: none;
+}
+
+.blog-switch-layout.blog-grid article.blog-grid-4:nth-child(4n+1) {
+    clear: both;
+}
+.lessonfilter {
+    display: inline-block;  
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+/* скрыть показаны 1 из xx ибо работа фильтра */
+/*
+#blog-archive .post-index {
+    display: none;
+}
+*/
+
+.entry-content #maintabs {
+    margin: 0px 0px 0px 0px;
+}
